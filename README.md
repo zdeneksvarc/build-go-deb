@@ -1,4 +1,4 @@
-# Build and install Go as a `.deb` package
+# Build and install Golang as a Debian `.deb` package
 
 This script downloads and builds the latest (or specified) version of Go from the official source, packages it as a `.deb`, and installs it cleanly into `/usr/local/go`.
 
