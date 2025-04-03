@@ -4,7 +4,6 @@ This script downloads and builds the latest (or specified) version of Go from th
 
 The result is a self-contained `.deb` file, easy to deploy and uninstall using standard Debian tools.
 
----
 
 ## 🔧 Build usage
 
@@ -26,15 +25,11 @@ This creates a file like:
 golang-custom_1.24.2_amd64.deb
 ```
 
----
-
 ## 📦 Install
 
 ```bash
 sudo dpkg -i golang-custom_1.24.2_amd64.deb
 ```
-
----
 
 ## 🛣️ Add to PATH
 
@@ -50,8 +45,6 @@ Then reload your shell:
 source ~/.bashrc    # or ~/.zshrc
 ```
 
----
-
 ## 🧽 Uninstall
 
 To remove the Go installation:
@@ -65,8 +58,6 @@ If you modified your shell config, also remove this line:
 ```bash
 export PATH=$PATH:/usr/local/go/bin
 ```
-
----
 
 ## 📁 Notes
 
